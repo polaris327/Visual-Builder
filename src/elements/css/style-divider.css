@@ -1,0 +1,23 @@
+/* divider1 */
+hr.divider1{
+	border-top: 1px solid #ccc;
+	margin: 0;
+}
+
+/* divider2 */
+hr.divider2{
+	border-top: 1px solid #ccc;
+	margin: 0;
+}
+
+/* divider3 */
+hr.divider3{
+	border-top: 1px dashed #8c8b8b;
+	margin: 0;
+}
+
+/* divider4 */
+hr.divider4{
+	border-top: 1px dashed #8c8b8b;
+	margin: 0;
+}

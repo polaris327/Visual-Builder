@@ -1,0 +1,283 @@
+/* team1 */
+#team1 {
+	padding: 40px 0;
+}
+
+#team1 .team-box {
+	padding: 20px;
+	text-align: center;
+	background: #3498db;
+	border-radius: 2px;
+}
+
+#team1 .team-box .icon {
+	width: 120px;
+	height: 120px;
+	border: 1px solid #898989;
+	border-radius: 80px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#team1 .team-box .icon span {
+	font-size: 40px;
+	color: #898989;
+}
+
+#team1 h3 {
+	font-size: 20px;
+}
+
+#team1 p {
+	font-size: 12px;
+	font-weight: 200;
+	color: #f5f5f5;
+}
+
+/* team2 */
+#team2 {
+	padding: 40px;
+	border-top: 1px solid #f5f5f5;
+	text-transform: uppercase;
+}
+
+#team2 .team-box {
+	background: #fff;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+#team2 .team-box .team-image {
+	position: relative;
+}
+
+#team2 .team-box .team-image img {
+	width: 100%;
+}
+
+#team2 .team-box h4 {
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+#team2 .team-box p {
+	font-size: 10px;
+}
+
+#team2 span.imghover-effect-team {
+	width: 100%;
+	height: 100%;
+	background: #000;
+	position: absolute;
+	top: 0;
+	z-index: 19;
+	cursor: pointer;
+	opacity: 0;
+	overflow: hidden;
+}
+
+#team2 .team-image:hover span.imghover-effect-team, .team-image:hover .social-icons-team  {
+	opacity: 0.9 !important;
+	transition: all 0.5s ease-in-out; 
+}
+
+#team2 .social-icons-team {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: 99;
+}
+
+#team2 .social-icons-team .fa {
+	width: 18px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 12px;
+	z-index: 99;
+}
+
+#team2 .social-icons-team .fa:hover {
+	color: #62b151;
+	-webkit-transition: all 0.3s ease;
+	   -moz-transition: all 0.3s ease;
+	     -o-transition: all 0.3s ease;
+	        transition: all 0.3s ease; 
+}
+
+/* team3 */
+#team3 {
+	padding: 40px;
+	border-top: 1px solid #f5f5f5;
+	text-transform: uppercase;
+}
+
+#team3 .team-box {
+	background: #fff;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+#team3 .team-box .team-image {
+	position: relative;
+	border-radius: 400px;
+}
+
+#team3 .team-box .team-image img {
+	width: 100%;
+	height: 100%;
+	border-radius: 150px;
+}
+
+#team3 .team-box h4 {
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+#team3 .team-box p {
+	font-size: 10px;
+}
+
+#team3 span.imghover-effect-team {
+	width: 100%;
+	height: 100%;
+	background: #000;
+	position: absolute;
+	top: 0;
+	z-index: 19;
+	cursor: pointer;
+	opacity: 0;
+	overflow: hidden;
+	border-radius: 400px;
+}
+
+#team3 .team-image:hover span.imghover-effect-team, .team-image:hover .social-icons-team  {
+	opacity: 0.9 !important;
+	transition: all 0.5s ease-in-out; 
+}
+
+#team3 .social-icons-team {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: 99;
+}
+
+#team3 .social-icons-team .fa {
+	width: 18px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 12px;
+	z-index: 99;
+}
+
+#team3 .social-icons-team .fa:hover {
+	color: #62b151;
+	-webkit-transition: all 0.3s ease;
+	   -moz-transition: all 0.3s ease;
+	     -o-transition: all 0.3s ease;
+	        transition: all 0.3s ease; 
+}
+
+#team3 .title h3 {
+	font-size: 24px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+#team3 .title p {
+	font-size: 12px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+/* team4 */
+#team4 {
+	padding: 40px;
+	border-top: 1px solid #f5f5f5;
+	text-transform: uppercase;
+}
+
+#team4 .team-box {
+	background: #fff;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+#team4 .team-box .team-image {
+	position: relative;
+	overflow: hidden;
+}
+
+#team4 .team-box .team-image img {
+	width: 100%;
+	height: 100%;
+}
+
+#team4 .team-box h4 {
+	font-size: 14px;
+	margin: 0;
+	color: #fff;
+}
+
+#team4 .team-box p {
+	font-size: 10px;
+	color: #fff;
+}
+
+#team4 .social-icons .fa {
+	width: 18px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 12px;
+	z-index: 99;
+}
+
+#team4 .social-icons .fa:hover {
+	color: #282828;
+	-webkit-transition: all 0.3s ease;
+	   -moz-transition: all 0.3s ease;
+	     -o-transition: all 0.3s ease;
+	        transition: all 0.3s ease; 
+}
+
+#team4 .content {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background: #62b151;
+	padding: 10px 0 20px 0;
+}
+
+#team4 .content:hover {
+	height: 100px;
+	background: rgba(98, 177, 81, 0.6);
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	        transition: all 0.5s ease; 
+}
+
+#team4 .title h3 {
+	font-size: 24px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+#team4 .title p {
+	font-size: 12px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 20px;
+}

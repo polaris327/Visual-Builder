@@ -1,0 +1,42 @@
+/* basic1 */
+#basic1 {
+	padding: 40px 0;
+}
+
+#basic1 p {
+	font-size: 12px;
+}
+
+#basic1 h3 {
+	font-size: 22px;
+}
+
+/* basic2 */
+#basic2 {
+	background: #282828;
+	color: #fff;
+	padding: 40px 0;
+}
+
+#basic2 p {
+	font-size: 12px;
+}
+
+#basic2 h3 {
+	font-size: 22px;
+}
+
+/* basic3 */
+#basic3 {
+	background: #62b151;
+	color: #fff;
+	padding: 40px 0;
+}
+
+#basic3 p {
+	font-size: 12px;
+}
+
+#basic3 h3 {
+	font-size: 22px;
+}

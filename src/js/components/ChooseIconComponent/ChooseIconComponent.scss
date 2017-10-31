@@ -1,0 +1,17 @@
+.glyph-icon-panel {
+	max-height: 200px;
+	overflow-y: scroll;
+
+	a.glyph-thumbnail {
+		float: left;
+		margin: 5px;
+		width: 40px;
+		height: 40px;
+		font-size: 20px;
+		padding: 8px;
+	}
+
+	a.selected {
+		border: 2px solid #f00 !important;
+	}
+}

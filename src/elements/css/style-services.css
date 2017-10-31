@@ -1,0 +1,481 @@
+/* services1 */
+#services1 {
+	background-color: #282828;
+	padding: 40px 0;
+	border-top: 1px solid #393939;
+	border-bottom: 1px solid #393939;
+}
+
+#services1 .service-box {
+	padding: 30px 15px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+#services1 .service-box:hover {
+	padding: 30px 15px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+}
+
+#services1 .service-box h2 {
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+#services1 .service-box p {
+	text-align: center;
+	color: #b7b7b7;
+	font-weight: 300;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+
+#services1 .service-box .include p {
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+#services1 .service-box .include .fa {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+/* services2 */
+.services2 {
+	background-color: #fff;
+	padding: 40px 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.services2 .service-box {
+	padding: 30px 15px 30px 20px;
+}
+
+.services2 .service-box:hover > .fa {
+	color: #62b151 !important;
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+}
+
+.services2 .service-box .fa {
+	font-size: 22px;
+}
+
+.services2 .service-box p {
+	color: #898989;
+	font-weight: 300;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+
+.services2 .service-box h6 {
+	color: #898989;
+	font-weight: 300;
+	font-size: 12px;
+	margin: 15px 0 5px 0;
+}
+
+.services2 h1 {
+	color: #282828;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+
+.services2 .service-box h2 {
+	font-weight: 400;
+	position: relative;
+	text-transform: uppercase;
+	font-size: 22px;
+	margin-top: 5px;
+}
+
+.services2 .service-box h2::after {
+	content: "";
+	background-color: #62b151;
+	display: block;
+	width: 20px;
+	height: 2px;
+	position: absolute;
+	left: -30px;
+	top: 50%;
+}
+
+/* services3 */
+#services3 {
+	padding: 40px 0;
+}
+
+#services3 .services-box {
+	padding: 0 20px;
+	text-align: center;
+}
+
+#services3 .services-box .icon {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #898989;
+	border-radius: 80px;
+	margin: 0 auto;
+}
+
+#services3 .services-box .icon span {
+	font-size: 40px;
+	color: #898989;
+}
+
+#services3 h3 {
+	font-size: 20px;
+	margin: 20px 0 15px 0;
+}
+
+#services3 p {
+	font-size: 12px;
+	font-weight: 200;
+	color: #898989;
+}
+
+/* services4 */
+#services4 {
+	padding: 40px 0;
+}
+
+#services4 .services-box {
+	padding: 0 20px;
+	text-align: center;
+}
+
+#services4 .services-box .icon {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #898989;
+	background: #898989;
+	border-radius: 80px;
+	margin: 0 auto;
+}
+
+#services4 .services-box .icon span {
+	font-size: 40px;
+	color: #fff;
+}
+
+#services4 h3 {
+	font-size: 20px;
+	margin: 20px 0 15px 0;
+}
+
+#services4 p {
+	font-size: 12px;
+	font-weight: 200;
+	color: #898989;
+}
+
+/* services5 */
+#services5 {
+	padding: 40px 0;
+}
+
+#services5 .services-box {
+	padding: 0 20px;
+	text-align: center;
+}
+
+#services5 .services-box .icon {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #898989;
+	margin: 0 auto;
+	position: relative;
+    -webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+    		transform: rotate(45deg);
+}
+
+#services5 .services-box .icon span {
+	font-size: 40px;
+	width: 40px;
+	color: #898989;
+    -webkit-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+    		transform: rotate(-45deg);
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -20px;
+}
+
+#services5 h3 {
+	font-size: 20px;
+	margin: 20px 0 15px 0;
+}
+
+#services5 p {
+	font-size: 12px;
+	font-weight: 200;
+	color: #898989;
+}
+
+/* services6 */
+#services6 {
+	padding: 40px 0 20px 0;
+}
+
+#services6 .services-box {
+	border: 2px solid #62b151;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding: 30px 90px 25px 20px;
+    position: relative;
+}
+
+#services6 .services-box .icon {
+	border-color: transparent #62b151 transparent transparent;
+    border-style: solid;
+    border-width: 434px 150px 434px 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -60px;
+    top: 50%;
+    transform: translate(0px, -50%);
+    width: 0;
+}
+
+#services6 .services-box .icon span {
+	font-size: 42px;
+	width: 40px;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	margin-top: -20px;
+	margin-left: 30px;
+}
+
+#services6 h3 {
+	font-size: 20px;
+	margin: 20px 0 15px 0;
+	height: 24px;
+	overflow: hidden;
+}
+
+#services6 p {
+	font-size: 12px;
+	font-weight: 200;
+	color: #898989;
+	overflow: hidden;
+}
+
+/* services7 */
+#services7 {
+	padding: 40px 0 20px 0;
+	background: #282828;
+}
+
+#services7 .services-box {
+	border: 2px solid #e74c3c;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding: 30px 90px 25px 20px;
+    position: relative;
+}
+
+#services7 .services-box .icon {
+	border-color: transparent #e74c3c transparent transparent;
+    border-style: solid;
+    border-width: 434px 150px 434px 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -60px;
+    top: 50%;
+    transform: translate(0px, -50%);
+    width: 0;
+}
+
+#services7 .services-box .icon span {
+	font-size: 42px;
+	width: 40px;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	margin-top: -20px;
+	margin-left: 30px;
+}
+
+#services7 h3 {
+	font-size: 20px;
+	margin: 20px 0 15px 0;
+	height: 24px;
+	overflow: hidden;
+	color: #fff;
+}
+
+#services7 p {
+	font-size: 12px;
+	font-weight: 200;
+	color: #fff;
+	overflow: hidden;
+}
+
+/* services8 */
+#services8 {
+	padding: 40px 0;
+	width: 100%;
+    background: no-repeat center center;
+	background-attachment: scroll;
+	background-color: #b7b7b7;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	position: relative;
+}
+
+#services8 .services-box {
+	padding: 20px;
+	text-align: center;
+	background: rgba(233, 240, 64, 0.8);
+	border-radius: 20px;
+}
+
+#services8 .services-box:hover {
+	padding: 20px;
+	text-align: center;
+	background: rgba(233, 240, 64, 0.6);
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+}
+
+#services8 .services-box .icon {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #f5f5f5;
+	border-radius: 80px;
+	margin: 0 auto;
+	color: #f5f5f5;
+}
+
+#services8 .services-box .icon span {
+	font-size: 40px;
+	color: #f5f5f5;
+}
+
+#services8 h3 {
+	font-size: 20px;
+	margin: 20px 0 15px 0;
+	color: #f5f5f5;
+}
+
+#services8 p {
+	font-size: 12px;
+	font-weight: 200;
+	color: #f5f5f5;
+}
+
+@media (max-width: 968px) {
+	#services8 .services-box {
+		margin-bottom: 10px;
+	}
+}
+
+/* services9 */
+#services9 {
+	padding: 75px 0 40px 0;
+	position: relative;
+	background-position: center center;
+	background-attachment: scroll;
+	width: 100%;
+	height: 100%;
+}
+
+#services9 .services-box {
+	padding: 0 20px;
+	text-align: center;
+	border-bottom: 1px solid #f5f5f5;
+	border-left: 1px solid #f5f5f5;
+	border-right: 1px solid #f5f5f5;
+	margin-bottom: 45px;
+}
+
+#services9 .services-box::before {
+	content: "";
+	display: block;
+	height: 1px;
+	background-color: #f5f5f5;
+	position: absolute;
+	top: 0;
+	left: 15px;
+	width: 30%;
+}
+
+#services9 .services-box::after {
+	content: "";
+	display: block;
+	height: 1px;
+	background-color: #f5f5f5;
+	position: absolute;
+	top: 0;
+	right: 15px;
+	width: 30%;
+}
+
+#services9 .services-box .icon {
+	width: 40%;
+	height: 40%;
+	border-radius: 150px;
+	margin: 0 auto;
+	position: absolute;
+	top: -20%;
+	left: 30%;
+}
+
+#services9 .services-box .icon span {
+	font-size: 40px;
+	color: #fff;
+}
+
+#services9 h3 {
+	font-size: 20px;
+	color: #fff;
+	margin: 0;
+	padding: 30px 0 15px 0;
+}
+
+#services9 p {
+	font-size: 12px;
+	font-weight: 200;
+	color: #fff;
+}
+
+#services9 .title h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+}
+
+#services9 .title p {
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	margin-bottom: 50px;
+}

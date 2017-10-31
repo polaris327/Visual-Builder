@@ -1,0 +1,11 @@
+.custom-modal {
+	width: 90%;
+	min-height: 600px;
+	.modal-body {
+		padding:0px;
+		.plugin-frame {
+			width: 100%;
+			min-height:80vh;
+		}
+	}
+}

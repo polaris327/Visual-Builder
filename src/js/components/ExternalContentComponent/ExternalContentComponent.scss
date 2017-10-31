@@ -1,0 +1,12 @@
+.plugin-modal {
+	width: 60%;
+	min-height: 600px;
+	.plugin-frame {
+		width: 100%;
+		height: 100%;
+	}
+	.plugin-holder {
+		max-height: 300px;
+		overflow-y: auto;
+	}
+}
